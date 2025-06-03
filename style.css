@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="password"],
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.chat {
+  padding: 10px;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 5px;
+  background: #555;
+  padding: 8px;
+  border-radius: 5px;
+}

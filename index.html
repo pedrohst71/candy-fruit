@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Candy Fruit</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Candy Fruit 🍬</h1>
+    <p>Bem-vindo à versão beta!</p>
+    <input type="password" id="code" placeholder="Digite o código de acesso" />
+    <button onclick="checkCode()">Entrar</button>
+    <p id="error" class="error"></p>
+  </div>
+
+  <div class="chat" id="chat" style="display: none;">
+    <div class="messages" id="messages"></div>
+    <div class="controls">
+      <input type="text" id="messageInput" placeholder="Digite sua mensagem"/>
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
